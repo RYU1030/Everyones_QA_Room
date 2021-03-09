@@ -1,6 +1,9 @@
 * {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+.header-detailed-pages {
+  margin-bottom: 66px;
+}
 .header-container {
   background-color: #A3A0A0;
   padding: 15px 100px;
@@ -14,4 +17,84 @@
   border-left: 1px solid #fff;
   margin-right: 20px;
   height: 28px;
+}
+.page-subtitle-container {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.page-subtitle {
+  font-size: 40px;
+}
+
+.article-element-wrapper {
+  width: 65%;
+  margin: 0 auto 124px auto;
+}
+.article-element-inner-wrapper {
+  border-bottom: 1px solid #F70B0B;
+  padding-bottom: 76px;
+  margin-bottom: 44.6px;
+}
+.article-element-row {
+  display: flex;
+  margin-bottom: 27px;
+}
+.article-element-row {
+  font-size: 18px;
+}
+.article-element-row:last-child {
+  margin: 0;
+}
+.article-element-title > p,
+.article-element > p,
+.article-element > textarea {
+  padding: 9px 13px;
+}
+.article-element-title {
+  margin-right: 68px;
+}
+.article-element-title > p {
+  border-bottom: 1px solid #ccc;
+  width: 227px;
+}
+.article-element {
+  width: 100%;
+}
+.article-element > p, 
+.article-element > textarea,
+.register-cancel-execute > p {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.user-input, textarea {
+  width: 100%;
+}
+.register-cancel-key {
+  width: 40%;
+}
+.urgency-levels {
+  align-items: center;
+}
+.urgency-levels-user-input {
+  display: flex;
+}
+p.urgency {
+  width: auto;
+  border: 0;
+  padding: 0;
+  margin-right: 28px;
+}
+.urgency > label > input {
+  margin-right: 12px;
+}
+.register-cancel-execute {
+  display: flex;
+}
+.register-cancel-execute > p {
+  font-size: 20px;
+  margin-right: 18px;
+}
+.register-cancel-execute > p >  a {
+  padding: 13px 20px;
+  width: 100%;
 }
