@@ -11,68 +11,70 @@
 <body>
   <header class="header-detailed-pages">
     <div class="header-container">
-      <p class="site-name">みんなの質問部屋</p>
+      <p class="site-name"><a href="./QandAList.html">みんなの質問部屋</a></p>
     </div>
   </header>
   <main>
     <section class="page-subtitle-container">
       <h1 class="page-subtitle">質問編集</h1>
     </section>
-    <section class="article-element-wrapper">
-      <div class="article-element-inner-wrapper">
-        <div class="article-element-row">
-          <div class="article-element-title">
-            <p>名前（ハンドルネーム）</p>
+    <section class="main-outer-wrapper-common">
+      <form action="#">
+        <div class="main-inner-wrapper-common">
+          <div class="question-element-row">
+            <div class="question-element-title">
+              <p>名前（ハンドルネーム）</p>
+            </div>
+            <div class="question-element">
+              <p><input type="text" class="user-input" placeholder="名前（ハンドルネーム）"></p>
+            </div>
           </div>
-          <div class="article-element">
-            <p><input type="text" class="user-input" placeholder="名前（ハンドルネーム）"></p>
+          <div class="question-element-row">
+            <div class="question-element-title">
+              <p>タイトル</p>
+            </div>
+            <div class="question-element">
+              <p><input type="text" class="user-input" placeholder="タイトル"></p>
+            </div>
+          </div>
+          <div class="question-element-row">
+            <div class="question-element-title">
+              <p>内容</p>
+            </div>
+            <div class="question-element">
+                <textarea name="question-content" cols="30" rows="15" placeholder="内容"></textarea>
+            </div>
+          </div>
+          <div class="question-element-row urgency-levels">
+            <div class="question-element-title">
+              <p>緊急度</p>
+            </div>
+            <div class="question-element urgency-levels-user-input">
+              <p class="urgency">
+                <label for="urgent"><input type="radio" name="urgency" value="urgent" id="urgent">急いでいます</label>
+              </p>
+              <p class="urgency">
+                <label for="advisable"><input type="radio" name="urgency" value="advisable" id="advisable">困っています</label>
+              </p>
+              <p class="urgency">
+                <label for="anytime"><input type="radio" name="urgency" value="anytime" id="anytime">いつでも</label>
+              </p>
+            </div>
+          </div>
+          <div class="question-element-row">
+            <div class="question-element-title">
+              <p>編集・削除キー</p>
+            </div>
+            <div class="question-element">
+              <p class="register-cancel-key"><input type="text" class="user-input" placeholder="数字4桁以上"></p>
+            </div>
           </div>
         </div>
-        <div class="article-element-row">
-          <div class="article-element-title">
-            <p>タイトル</p>
-          </div>
-          <div class="article-element">
-            <p><input type="text" class="user-input" placeholder="タイトル"></p>
-          </div>
+        <div class="register-cancel-execute">
+          <p><a href="#">更新</a></p>
+          <p><a href="#">キャンセル</a></p>
         </div>
-        <div class="article-element-row">
-          <div class="article-element-title">
-            <p>内容</p>
-          </div>
-          <div class="article-element">
-              <textarea name="article-content" cols="30" rows="15" placeholder="内容"></textarea>
-          </div>
-        </div>
-        <div class="article-element-row urgency-levels">
-          <div class="article-element-title">
-            <p>緊急度</p>
-          </div>
-          <div class="article-element urgency-levels-user-input">
-            <p class="urgency">
-              <label for="urgent"><input type="radio" name="urgency" value="urgent" id="urgent">急いでいます</label>
-            </p>
-            <p class="urgency">
-              <label for="advisable"><input type="radio" name="urgency" value="advisable" id="advisable">困っています</label>
-            </p>
-            <p class="urgency">
-              <label for="anytime"><input type="radio" name="urgency" value="anytime" id="anytime">いつでも</label>
-            </p>
-          </div>
-        </div>
-        <div class="article-element-row">
-          <div class="article-element-title">
-            <p>編集・削除キー</p>
-          </div>
-          <div class="article-element">
-            <p class="register-cancel-key"><input type="text" class="user-input" placeholder="数字４桁以上"></p>
-          </div>
-        </div>
-      </div>
-      <div class="register-cancel-execute">
-        <p><a href="#">更新</a></p>
-        <p><a href="#">キャンセル</a></p>
-      </div>
+      </form>
     </section>
   </main>
 </body>
