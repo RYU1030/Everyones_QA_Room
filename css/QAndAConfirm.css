@@ -21,8 +21,13 @@ p.confirmed-urgency {
 .edit-delete-execute {
   display: flex;
 }
+.registered-key input,
+.edit-execute button,
+.delete-execute button {
+  padding: 9px 13px;
+}
 .registered-key {
-  margin-right: 18.6px;
+  margin-right: 11px;
 }
 .edit-execute {
   margin-right: 11px;
