@@ -22,9 +22,14 @@ p.confirmed-urgency {
   display: flex;
 }
 .registered-key input,
-.edit-execute button,
-.delete-execute button {
+.edit-execute,
+.delete-execute {
   padding: 9px 13px;
+}
+.edit-execute,
+.delete-execute {
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 .registered-key {
   margin-right: 11px;
@@ -96,7 +101,7 @@ p.your-answer {
   letter-spacing: 2px;
   line-height: 1.5;
 }
-.send-answer-button {
+.send-answer-btn {
   width: 120px;
   margin: 0 auto;
   border: 1px solid #ccc;
