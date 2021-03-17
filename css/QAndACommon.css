@@ -65,9 +65,9 @@
 .question-element p,
 .question-content,
 .register-cancel,
-.register-button,
-.update-button,
-.cancel-button {
+.register-btn,
+.update-btn,
+.cancel-btn {
   border: 1px solid #ccc;
   border-radius: 8px;
 }
@@ -92,12 +92,12 @@ p.urgency {
 .register-cancel-execute {
   display: flex;
 }
-.register-button,
-.cancel-button a {
+.register-btn,
+.cancel-btn a {
   padding: 13px 20px;
   font-size: 20px;
 }
-.register-button {
+.register-btn {
   margin-right: 18px;
 }
 
@@ -122,11 +122,31 @@ p.urgency {
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  width: 80%;
-  max-width: 600px;
-  padding: 50px;
+  width: 55%;
+  padding: 80px;
   background-color: #fff;
   z-index: 2;
+  text-align: center;
+}
+.request-confirmation p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.request-confirmation button {
+  color: #fff;
+  background-color: #ccc;
+  font-size: 18px;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+.request-confirmation button:hover {
+  background-color: #333;
+}
+.request-confirmed {
+  margin-right: 20px;
 }
 .close-btn {
   position: absolute;
