@@ -1,10 +1,10 @@
-function popupImage() {
-  var popup = document.getElementById('js-popup');
+function popup() {
+const popup = document.getElementById('js-popup');
   if(!popup) return;
 
-  var blackBg = document.getElementById('js-black-bg');
-  var closeBtn = document.getElementById('js-close-btn');
-  var showBtn = document.getElementById('register-button');
+  const blackBg = document.getElementById('js-black-bg');
+  const closeBtn = document.getElementById('js-close-btn');
+  const showBtn = document.getElementById('js-trigger');
 
   closePopUp(blackBg);
   closePopUp(closeBtn);
@@ -16,4 +16,4 @@ function popupImage() {
     });
   }
 }
-popupImage();
+popup();
