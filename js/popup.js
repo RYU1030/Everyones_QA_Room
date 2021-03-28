@@ -1,5 +1,7 @@
+// 質問登録/編集画面のポップアップ機能
 function popup() {
 const popup = document.getElementById('js-popup');
+
   if(!popup) return;
 
   const blackBg = document.getElementById('js-black-bg');
